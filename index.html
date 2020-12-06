@@ -8,6 +8,10 @@
 
     <!--Estilos CSS-->
     <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
 </head>
 
 <body>
@@ -31,55 +35,19 @@
 
         <!--Slider-->
         <div id="slider">
-
+            <div class="bxslider">
+                <div><img src="./img/hojas.jpg" title="hojas"></div>
+                <div><img src="./img/rojo.jpg" title="rojo"></div>
+                <div><img src="./img/cielo.jpg" title="cielo"></div>
+            </div>
         </div>
 
         <!--Contenido-->
         <section id="content">
             <div id="posts">
-                <article class="post">
-                    <h2>
-                        Titulo del articulo
-                    </h2>
-                    <span class="date">
-                        Fecha de publicacion
-                    </span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus beatae quidem aspernatur
-                        eveniet quia perspiciatis fuga! Neque in voluptatibus quis autem fugiat asperiores odio alias ab
-                        quidem soluta tempore et similique dignissimos veritatis tenetur harum vel sapiente est, sint
-                        aperiam laudantium vitae optio voluptatum! Assumenda dignissimos nostrum animi saepe consequatur
-                        perferendis qui quod soluta deserunt odio! Magni eius fugiat quidem quam, tenetur voluptates?
-                        Nulla quia facilis aut quisquam suscipit incidunt eligendi modi. Voluptatibus modi impedit odio
-                        sequi libero consectetur, omnis ab excepturi! Esse numquam commodi voluptatem, blanditiis harum,
-                        possimus sapiente alias eum porro nesciunt repellat ullam, reiciendis placeat voluptates
-                        debitis!
-                    </p>
-                    <a href="#" type="button" class="button-more">Leer mas</a>
-                </article>
-
-                <article class="post">
-                    <h2>
-                        Titulo del articulo
-                    </h2>
-                    <span class="date">
-                        Fecha de publicacion
-                    </span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus beatae quidem aspernatur
-                        eveniet quia perspiciatis fuga! Neque in voluptatibus quis autem fugiat asperiores odio alias ab
-                        quidem soluta tempore et similique dignissimos veritatis tenetur harum vel sapiente est, sint
-                        aperiam laudantium vitae optio voluptatum! Assumenda dignissimos nostrum animi saepe consequatur
-                        perferendis qui quod soluta deserunt odio! Magni eius fugiat quidem quam, tenetur voluptates?
-                        Nulla quia facilis aut quisquam suscipit incidunt eligendi modi. Voluptatibus modi impedit odio
-                        sequi libero consectetur, omnis ab excepturi! Esse numquam commodi voluptatem, blanditiis harum,
-                        possimus sapiente alias eum porro nesciunt repellat ullam, reiciendis placeat voluptates
-                        debitis!
-                    </p>
-                    <a href="#" type="button" class="button-more">Leer mas</a>
-                </article>
+                <!--Se cargan los post desde el json-->
             </div>
-            
+
 
             <aside id="sidebar">
                 <div id="about">
@@ -120,6 +88,23 @@
     <footer>
         Footer &copy;
     </footer>
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--BxSlider-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--Moment js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"
+        integrity="sha512-L6Trpj0Q/FiqDMOD0FQ0dCzE0qYT2TFpxkIpXRSWlyPvaLNkGEMRuXoz6MC5PrtcbXtgDLAAI4VFtPvfYZXEtg=="
+        crossorigin="anonymous"></script>
+
+    <!--Script JS-->
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>

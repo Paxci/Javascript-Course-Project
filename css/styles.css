@@ -69,6 +69,11 @@ nav ul li a{
     padding-right: 30px;
 }
 
+/*Tamaño del Box del Slider*/
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+
 #posts{
     width: 60%;
     float: left;
@@ -169,3 +174,5 @@ footer{
     margin-top: 50px;
     line-height: 47px;
 }
+
+
