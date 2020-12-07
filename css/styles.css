@@ -210,3 +210,12 @@ footer{
     margin-top: 40px;
 }
 
+#reloj{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #333;
+    border: 5px dashed #333;
+    width: 35%;
+    margin: 0 auto;
+}
