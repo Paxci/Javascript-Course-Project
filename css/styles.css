@@ -9,9 +9,35 @@
     clear: both;
 }
 
-body{
-    background: url('../img/hojas.jpg');
-    background-attachment: fixed;
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+
+#to-green,
+#to-red,
+#to-blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+#to-green{
+    background: #235E3D;
+}
+
+#to-blue{
+    background: #1F87C4;
+}
+
+#to-red{
+    background:  #CA3413;
 }
 
 #global{
@@ -28,7 +54,6 @@ body{
     font-size: 30px;
     letter-spacing: 4px;
     line-height: 75px;
-    background: #235E3D;
     color:white;
     text-align: center;
     width: 385px;
@@ -57,9 +82,7 @@ nav ul li{
     transition: all 300ms;
 }
 
-nav ul li:hover{
-    background: #235E3D;
-}
+
 
 nav ul li a{
     display: block;
@@ -104,7 +127,6 @@ nav ul li a{
 
 .button-more{
     padding: 15px;
-    background: #235E3D;
     color: white;
     text-decoration: none;
     margin-top: 10px;
