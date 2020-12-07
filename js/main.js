@@ -113,4 +113,10 @@ $(document).ready(function () {
         location.reload();
     })
   }
+
+  //Acordeon
+
+  if(window.location.href.indexOf('about') != -1){
+    $('#acordeon').accordion();
+  };
 });
